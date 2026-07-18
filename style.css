@@ -1,0 +1,251 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffffcc; /* putih semi transparan */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+     .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffb6c1;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+    .navbar-brand {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: white;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+    .navbar-links li a {
+        color: white;
+        text-decoration: none;
+        padding: 8px 12px;
+        border-radius: 6px;
+        font-weight: 500;
+    }
+
+    .navbar-links li a:hover {
+        background-color: #ff85a2;
+    }
+
+    .logout-btn {
+    background-color: #f44336;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none; /* Menghilangkan underline */
+}
+
+
+    .logout-btn:hover {
+        background-color: #d7372c;
+    }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to right, #fff1f2, #ffe4e6);
+            padding: 20px;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #d6336c;
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        table {
+            margin: 0 auto;
+            width: 90%;
+            border-collapse: collapse;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #ff8fab;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #fff0f5;
+        }
+
+        tr:hover {
+            background-color: #ffe0ec;
+        }
+
+        .btn {
+            padding: 8px 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .edit-btn {
+            background-color: #4caf50;
+        }
+
+        .delete-btn {
+            background-color: #f44336;
+        }
+
+        .btn:hover {
+            opacity: 0.9;
+        }
+
+        .action-cell {
+            white-space: nowrap;
+        }
+
+        .add-btn {
+            display: inline-block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #ffa07a;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .add-btn:hover {
+            background-color: #ff7f50;
+        }
+    
+        /* Container utama login */
+#card {
+    background: #fff0f5;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 100px auto;
+    padding: 40px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Bagian dalam kartu login */
+#card-content {
+    padding: 0 20px;
+}
+
+/* Judul login */
+#card-title h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #d6336c;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.underline-title {
+    width: 50px;
+    height: 3px;
+    background-color: #ff85a2;
+    margin: 0 auto 20px auto;
+    border-radius: 5px;
+}
+
+/* Form input */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-content {
+    border: none;
+    border-bottom: 2px solid #d6336c;
+    padding: 10px;
+    font-size: 1em;
+    background-color: transparent;
+    outline: none;
+    color: #333;
+}
+
+.form-content:focus {
+    border-color: #ff85a2;
+}
+
+/* Garis bawah dekoratif */
+.form-border {
+    height: 1px;
+    background-color: #ffe4e6;
+    margin-bottom: 10px;
+}
+
+/* Tombol login */
+#submit-btn {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #ff85a2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+#submit-btn:hover {
+    background-color: #ff5f85;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ffe4e6;
+    color: #d6336c;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.back-btn:hover {
+    background-color: #ffb6c1;
+    color: white;
+}
+

@@ -1,0 +1,39 @@
+
+<html>
+<head>
+    <title>Tambah Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    <body>
+        <nav class="navbar">
+            <ul class="navbar-links">
+            <li><a href="menu.php">Dashboard</a></li>
+            <li><a href="tampilan_admin.php">Input Data</a></li>
+        </ul>
+        <a href="logout.php" class="logout-btn">Logout</a>
+    </nav>
+
+    <div class="container">
+        <a href="tampilan_admin.php" class="back-btn">Kembali</a>
+    <h1>TAMBAH DATA BUAH</h1>
+    <form action="input_data.php" method="POST">
+
+        <label for="tanggal">Tanggal:</label>
+        <input type="date" name="tanggal" id="tanggal" required><br><br>
+
+        <label for="nama_barang">Nama Buah:</label>
+        <input type="text" name="nama_barang" id="nama_barang" required><br><br>
+
+        <label for="kode_barang">Kode Buah:</label>
+        <input type="text" name="kode_barang" id="kode_barang" required><br><br>
+
+        <label for="jumlah_barang">Jumlah Buah:</label>
+        <input type="number" name="jumlah_barang" id="jumlah_barang" required><br><br>
+
+        <input type="submit" value="Simpan">
+        <input type="reset" value="Hapus">
+    </form>
+    </div>
+</body>
+</html>
